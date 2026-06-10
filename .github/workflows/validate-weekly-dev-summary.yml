@@ -1,6 +1,7 @@
 name: validate-weekly-dev-summary
 
 on:
+  workflow_dispatch:
   push:
     paths: ["workflows/weekly-dev-summary/**"]
   pull_request:
